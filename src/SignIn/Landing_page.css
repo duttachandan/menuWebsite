@@ -1,0 +1,54 @@
+.mainflex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    row-gap: 20px;
+}
+.main-body{
+    height:80vh;
+    width:100vw;
+    background: url("https://media.istockphoto.com/id/1153343335/photo/abstract-blurred-beautiful-inside-interior-of-modern-restaurant-nightclub-retail-background.jpg?s=612x612&w=0&k=20&c=D7-ULAQGYhHww5HfOYNyVSkCxON9VwR-X5GztgWm59o=");
+    background-repeat: auto;
+    background-position: center;
+    background-color:darksalmon;
+}
+.SignInPage{
+    background: transparent;
+    height: 400px;
+    width:400px;
+    border-radius: 10px;
+    box-shadow:5px 5px 10px black;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color:black;
+}
+.btn{
+    margin-top:20px;
+}
+.btn input{
+    margin-left:10px;
+}
+.btn input:focus{
+    transform: scale(1.2);
+    height:20px;
+    overflow:hidden;
+}
+.btn-s{
+    margin-top:20px;
+}
+.btn-submit{
+    margin-left:10px;
+    height:45px;
+    width:90px;
+    color:black;
+    background: grey;
+    border:none;
+    border-radius:10px;
+    font-size:1.2rem;
+    font-weight:700;
+}
+.btn-submit:hover{
+    background:whitesmoke;
+    color:chartreuse;
+}

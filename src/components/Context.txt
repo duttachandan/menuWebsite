@@ -1,0 +1,8 @@
+const AllData = ()=>{
+    navData.map(e=>{
+      new Set([e.foodTime]);
+      console.log(e.foodTime);
+    })
+  }
+  AllData();
+  
