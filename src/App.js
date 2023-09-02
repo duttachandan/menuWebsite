@@ -11,7 +11,7 @@ function App() {
     <HashRouter>
       <Routes>
         <Route exact path="/" element={<Menubar element={items}/>}/>
-        <Route exact path="/sign" element={<Sign/>}/>
+        <Route path="/sign" element={<Sign/>}/>
         <Route element={<Error/>}/>
       </Routes>
     </HashRouter>
